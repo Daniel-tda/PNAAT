@@ -1,7 +1,7 @@
 # ESTRUTURAS CONDICIONAIS
 
 # IF, ELIF, ELSE
-
+'''
 temperatura_fabrica = 30
 
 if temperatura_fabrica > 25:
@@ -45,7 +45,7 @@ elif pressao_atual < pressao_minima or pressao_atual < 2.0:
 else:
     print("Pressão dentro dos limites normais.")
 
-
+'''
 # ESTRUTURAS REPETITIVAS
 
 # WHILE
@@ -71,7 +71,7 @@ while True:
 
 print("Monitoramento encerrado.")
 
-
+'''
 # FOR
 
 # O loop irá iterar de 1 a 5, representando cada ciclo de consumo
@@ -127,3 +127,4 @@ for setor in consumo_setores:
         print(f"Alerta! Consumo de {consumo_setores[setor]} kW no setor {setor} excedeu o limite!")
     else:
         print(f"Consumo no setor {setor} dentro do limite: {consumo_setores[setor]} kW")
+'''
