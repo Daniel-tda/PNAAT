@@ -143,3 +143,8 @@ print(f"Máquina defeituosa e seus comandos: {comandos_maquinas['maquina_B']}")
 #removendo uma máquina 
 comandos_maquinas.pop("maquina_C")
 print(f"Comandos após remover a máquina C: {comandos_maquinas}")
+
+# ou
+
+del comandos_maquinas["maquina_D"]
+print(f"Comandos após remover a máquina D: {comandos_maquinas}")
