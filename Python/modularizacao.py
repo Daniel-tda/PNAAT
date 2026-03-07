@@ -55,4 +55,4 @@ for i in range(5):
     registrar_evento(pos, temp)
 
 print("-" * 60)
-print("--- Fim do Monitoramento ---")
+print("--- Fim do Monitoramento ---") 
